@@ -2,7 +2,7 @@
 OmniStack8 week held on 2019-09-30
 ## Tindev
 ## What is the project
-Tindev is an application similar to Tinder, created to find other developers who work on the same stack or share the same experiences. The developers will be searched through GitHub and registered in the application's database if they do not exist.
+Tindev is an application similar to Tinder, created to find other developers who work on the same stack or share the same experiences. The developers will be searched through GitHub user and registered in the application's database if they do not exist.
 ## Main features
 ## - Login
 This screen is responsible for controlling the user's access to the system, it is the first that is displayed. Inform your GitHub user to have access to all registered users. If it is the first time you are logging in, it will be registered and stored in the database.
