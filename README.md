@@ -2,10 +2,10 @@
 OmniStack8 week held on 2019-09-30
 ## Tindev
 ## What is the project
-Tindev is an application similar to Tinder, created to find other developers who work on the same stack or share the same experiences. The developers will be searched through GitHub user and registered in the application's database if they do not exist.
+Tindev is an application similar to Tinder, created to find other developers who work on the same stack or share the same experiences. The developers will be searched through the GitHub user and registered in the application's database as: name, avatar and description, if they do not exist.
 ## Main features
 ## - Login
-This screen is responsible for controlling the user's access to the system, it is the first that is displayed. Inform your GitHub user to have access to all registered users. If it is the first time you are logging in, it will be registered and stored in the database.
+This screen is responsible for controlling the user's access to the system, it is the first that is displayed. Inform a valid GitHub user to have access to all registered users. If it is the first time you are logging in, it will be registered and stored in the database.
 ## Web app
 <p align="center">
   <img width="600" height="300" src="https://github.com/borges2/OmniStack8/blob/master/image/LoginWeb.png">
@@ -17,7 +17,7 @@ This screen is responsible for controlling the user's access to the system, it i
 </p>
 
 ## - Main page (Like/Dislike)
-This screen is the main one where all the github users registered in the application are listed. The logged in user has the option to give (like) or (dislike) the desired user of the listing via the button below the profile. After pressing the button, the chosen user will be removed from the list of the logged in user. If you have chosen the option (like) and that same user has given (like) the logged in user, a screen will appear with the avatar (image) and the message (match) of the chosen user.
+This screen is the main one, where all github users registered in the application who have not yet received a like or dislike are listed. The logged in user has the option to give (like) or (dislike) the desired user of the listing via the button below the profile. After pressing the button, the chosen user will be removed from the list of the logged in user. If you have chosen the option (like) and that same user has given (like) the logged in user, a screen will appear with the avatar (image) and the message (match) of the chosen user.
 ## Web app
 <p align="center">
   <img width="600" height="300" src="https://github.com/borges2/OmniStack8/blob/master/image/InterfaceWeb.png">
@@ -32,7 +32,7 @@ This screen is the main one where all the github users registered in the applica
 Do the following steps:
 Open a terminal in administrator mode, enter the backend folder and run the command: yarn dev.
 To run the web application frontend, open a terminal in administrator mode, enter the frontend folder and run the command: yarn start.
-## How to run it mode (Android)
+## How to run it mode (Android) mobile
 Do the following steps:
 Access the link: (https://docs.rocketseat.dev/ambiente-react-native/introducao) and install all necessary dependencies.
 After the android environment is ready to test applications, enter the folder: (tindev/android/app/build/intermediates) and delete the folder (signing_config). This file has restricted permissions to run the application.
